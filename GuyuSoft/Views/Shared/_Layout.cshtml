@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html>
+<html ng-app="guyu">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -13,13 +13,19 @@
         <nav class="navbar navbar-default nav-border-none" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand brand" href="#">
                         <div class="brand-logo">
-                            <img src="~/Images/logo.png" alt="古鱼软件" class="img-responsive" />
+                            <img src="~/Images/logo.png" alt="古鱼软件" />
                         </div>
                     </a>
                 </div>
-                <div>
+                <div class="collapse navbar-collapse" id="mainNavBar">
                     <ul class="nav navbar-nav">
                         <li><a href="#">公司产品</a></li>
                         <li><a href="#">行业解决方案</a></li>
@@ -28,10 +34,18 @@
                         <li><a href="#">关于我们</a></li>
                         <li><a href="#">联系我们</a></li>
                     </ul>
+                    <ul class="nav navbar-nav pull-right visible-md visible-lg nav-right">
+                        <li class="pull-right"><a href="#">注册</a></li>
+                        <li class="pull-right"><a href="#">登录</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
         @RenderBody()
+        <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+        <script src="~/Scripts/guyusoft.js"></script>
     </div>
 </body>
 </html>

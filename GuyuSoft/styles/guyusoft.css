@@ -14,3 +14,15 @@
 .brand {
     padding: 3px;
 }
+
+.nav-right {
+    width:350px;
+}
+
+.nav-right .nav-form {
+    width:200px;
+}
+
+.nav-right .nav-form .search-form {
+    margin-top:10px;
+}
