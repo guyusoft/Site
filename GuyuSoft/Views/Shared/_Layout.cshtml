@@ -2,11 +2,35 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/styles/guyusoft.css" rel="stylesheet">
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
+    <div class="container">
+        <nav class="navbar navbar-default nav-border-none" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand brand" href="#">
+                        <div class="brand-logo">
+                            <img src="~/Images/logo.png" alt="古鱼软件" class="img-responsive" />
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">公司产品</a></li>
+                        <li><a href="#">行业解决方案</a></li>
+                        <li><a href="#">移动开发</a></li>
+                        <li><a href="#">微信应用</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         @RenderBody()
     </div>
 </body>

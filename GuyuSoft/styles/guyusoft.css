@@ -1,0 +1,16 @@
+﻿body {
+    font-family:'Hiragino Sans GB','Microsoft Yahei',"WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    text-decoration:none;
+    color:#0094ff;
+}
+
+.nav-border-none {
+    border:none;
+}
+
+.brand {
+    padding: 3px;
+}
