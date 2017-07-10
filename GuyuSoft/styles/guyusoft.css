@@ -1,5 +1,10 @@
 ﻿body {
-    font-family:'Hiragino Sans GB','Microsoft Yahei',"WenQuanYi Micro Hei",SimSun,Tahoma,Arial,Helvetica,STHeiti;
+    font-family:"Helvetica Neue",Arial,STHeiti,"Microsoft YaHei",sans-serif,Helvetica,"DroidSansFallback",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3"!important;
+    color: #fff;
+}
+
+.nav-guyu {
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -25,4 +30,26 @@
 
 .nav-right .nav-form .search-form {
     margin-top:10px;
+}
+
+.header {
+    background: #1976D2;
+    height: 200px;
+    text-align: center;
+}
+
+.header img {
+    -webkit-filter: drop-shadow(0 2px 2px rgba(0,0,0,0.24));
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.24));
+    margin-bottom: 8px;
+    opacity: 1;
+    padding: 0;
+    width: 160px;
+}
+
+.header h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
 }

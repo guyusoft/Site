@@ -2,7 +2,7 @@
 
 namespace GuyuSoft.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : DefaultController
     {
         public ActionResult Index()
         {
