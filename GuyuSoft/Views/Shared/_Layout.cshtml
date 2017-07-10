@@ -9,39 +9,37 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-default nav-border-none nav-guyu" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-                        <span class="sr-only">切换导航</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand brand" href="#">
-                        <div class="brand-logo">
-                            <img src="~/Images/logo.svg" alt="古鱼网" />
-                        </div>
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse" id="mainNavBar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">公司产品</a></li>
-                        <li><a href="#">行业解决方案</a></li>
-                        <li><a href="#">移动开发</a></li>
-                        <li><a href="#">微信应用</a></li>
-                        <li><a href="#">关于我们</a></li>
-                        <li><a href="#">联系我们</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav pull-right visible-md visible-lg nav-right">
-                        <li class="pull-right"><a href="#">注册</a></li>
-                        <li class="pull-right"><a href="#">登录</a></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-default nav-border-none nav-guyu" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand brand" href="#">
+                    <div class="brand-logo">
+                        <img src="~/Images/logo.svg" alt="古鱼网" />
+                    </div>
+                </a>
             </div>
-        </nav>
-    </div>
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">公司产品</a></li>
+                    <li><a href="#">行业解决方案</a></li>
+                    <li><a href="#">移动开发</a></li>
+                    <li><a href="#">微信应用</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav pull-right visible-md visible-lg nav-right">
+                    <li class="pull-right"><a href="#">注册</a></li>
+                    <li class="pull-right"><a href="#">登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="header">
         <h1>网站，微信应用，移动客户端
@@ -54,19 +52,88 @@
     @RenderBody()
     <footer class="footer">
         <div class="container">
-            <div class="col-md-2">
-                
+            <div class="col-md-3">
+                <ul>
+                    <li>
+                        <span class="title">资源</span>
+                    </li>
+                    <li>
+                        <a href="#">解决方案</a>
+                    </li>
+                    <li>
+                        <a href="#">成功案例</a>
+                    </li>
+                    <li>
+                        <a href="#">开发团队</a>
+                    </li>
+                    <li>
+                        <a href="#">咨询服务</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-2">
-                
+            <div class="col-md-3">
+                <ul>
+                    <li>
+                        <span class="title">帮助</span>
+                    </li>
+                    <li>
+                        <a href="#">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
+                    <li>
+                        <a href="#">网站地图</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-4">
-                <img src="~/Images/logo.svg" />
+            <div class="col-md-3">
+                <ul>
+                    <li>
+                        <span class="title">服务</span>
+                    </li>
+                    <li>
+                        <a href="#">网站建设</a>
+                    </li>
+                    <li>
+                        <a href="#">微信企业号</a>
+                    </li>
+                    <li>
+                        <a href="#">微信服务号</a>
+                    </li>
+                    <li>
+                        <a href="#">移动APP</a>
+                    </li>
+                    <li>
+                        <a href="#">个性化定制</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2">
-                
+            <div class="col-md-3">
+                <ul>
+                    <li>
+                        <span class="title">业务合作</span>
+                    </li>
+                    <li>
+                        <a href="#">网纳科技</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里云</a>
+                    </li>
+                    <li>
+                        <a href="#">腾讯</a>
+                    </li>
+                    <li>
+                        <a href="#">万网</a>
+                    </li>
+                    <li>
+                        <a href="#">百度</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+        <div class="container copyright">
+            Copyright © 2017 <img src="~/Images/logo.svg" alt="古鱼网" />
         </div>
     </footer>
     <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
