@@ -122,6 +122,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\logo_l.png" />
+    <Content Include="Images\responsive-framework.svg" />
     <Content Include="Scripts\guyusoft.js" />
     <Content Include="styles\guyusoft.css" />
     <Content Include="Web.config" />

@@ -53,3 +53,7 @@
     line-height: 32px;
     margin: 0 auto;
 }
+
+.product img {
+    width: 70%;
+}
