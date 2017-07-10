@@ -121,6 +121,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Images\banner.svg" />
+    <Content Include="Images\banner1.svg" />
+    <Content Include="Images\banner2.svg" />
     <Content Include="Images\logo.svg" />
     <Content Include="Scripts\guyusoft.js" />
     <Content Include="styles\guyusoft.css" />
