@@ -46,7 +46,7 @@
             <g id="monitor" transform="translate(399.000000, 34.000000)">
                 <g id="frame" transform="translate(0.238619, 0.000000)">
                     <g id="Combined-Shape">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="black;" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                         <use fill="#ECEFF1" fill-rule="evenodd" xlink:href="#path-1"></use>
                     </g>
                 </g>
@@ -83,14 +83,14 @@
             </g>
             <g id="laptop" transform="translate(18.000000, 312.000000)">
                 <g id="Imported-Layers">
-                    <use fill="#EA5514" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                    <use fill="#EA5514" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#ECEFF1" fill-rule="evenodd" xlink:href="#path-3"></use>
                 </g>
                 <polygon id="Line" fill="#DDE2E6" points="75.0725076 375.46146 671.102719 375.46146 672.35355 375.46146 672.35355 372.95843 671.102719 372.95843 75.0725076 372.95843 73.821677 372.95843 73.821677 375.46146"></polygon>
                 <path d="M430.984819,374.209945 C430.984819,378.60861 428.025348,382.085501 424.473135,382.085501 L326.23079,382.085501 C322.680532,382.085501 319.740257,378.616468 319.740257,374.209945 L318.489426,375.46146 L432.23565,375.46146 L430.984819,374.209945 L430.984819,374.209945 Z M433.48648,374.209945 L433.48648,372.95843 L432.23565,372.95843 L318.489426,372.95843 L317.238595,372.95843 L317.238595,374.209945 C317.238595,379.915807 321.199093,384.588532 326.23079,384.588532 L424.473135,384.588532 C429.504051,384.588532 433.48648,379.909832 433.48648,374.209945 L433.48648,374.209945 Z" id="Path-Copy-4" fill="#DDE2E6"></path>
                 <path d="M109.196375,36.5082873 L636.978852,36.5082873 L636.978852,41.2195446 L636.978852,41.5143479 L109.196375,41.5143479 L109.196375,36.5082873 Z" id="top-shadow" fill="#DDE2E6"></path>
                 <g id="screen" transform="translate(111.000000, 39.000000)">
-                    <rect fill="#EA5514" x="0.516695994" y="0.0102036912" width="523.475737" height="299.498744"></rect>
+                    <rect fill="#FFFFFF" x="0.516695994" y="0.0102036912" width="523.475737" height="299.498744"></rect>
                     <g id="text" transform="translate(41.000000, 216.000000)" stroke-opacity="0.7" stroke="#E1E2E3" stroke-width="6.174" stroke-linecap="square">
                         <path d="M0.314060447,2.85446985 L128.740915,2.85446985" id="Line"></path>
                         <path d="M0.314060447,17.1995842 L128.740915,17.1995842" id="Line"></path>
@@ -122,12 +122,12 @@
             </g>
             <g id="iphone" transform="translate(1030.000000, 325.000000)">
                 <g id="iPhone-Outline-Copy-2">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                    <use fill="#ECEFF1" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <use fill="#EA5514" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#EA5514" fill-rule="evenodd" xlink:href="#path-5"></use>
                 </g>
                 <path d="M133.449217,26.9964062 L90.3984404,26.9964062 C88.5408193,26.9964062 87.034263,25.4710722 87.034263,23.5902978 C87.034263,21.7095234 88.5408193,20.1865433 90.3984404,20.1865433 L133.449217,20.1865433 C135.306838,20.1865433 136.813394,21.7095234 136.813394,23.5902978 C136.813394,25.4710722 135.306838,26.9964062 133.449217,26.9964062 L133.449217,26.9964062 Z" id="speaker" fill="#FFFFFF"></path>
                 <path d="M126.5625,366.666667 C126.5625,374.454876 120.266084,380.769231 112.5,380.769231 C104.733916,380.769231 98.4375,374.454876 98.4375,366.666667 C98.4375,358.878458 104.733916,352.564103 112.5,352.564103 C120.266084,352.564103 126.5625,358.878458 126.5625,366.666667 L126.5625,366.666667 Z" id="home-button" stroke="#FFFFFF" stroke-width="2.5"></path>
-                <rect id="screen" fill="#FFFFFF" x="15" y="51" width="194.318182" height="287.179487"></rect>
+                <rect id="screen" fill="#EA5514" x="15" y="51" width="194.318182" height="287.179487"></rect>
                 <g id="text" transform="translate(31.000000, 249.000000)" stroke="#E1E2E3" stroke-width="9" stroke-linecap="square">
                     <path d="M0,1.5 L166.689941,1.5" id="Line" opacity="0.7"></path>
                     <path d="M0,18.5 L166.689941,18.5" id="Line" stroke-opacity="0.7"></path>
