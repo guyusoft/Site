@@ -1,0 +1,43 @@
+<svg version="1.1" id="svg-draw" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 200 320" xml:space="preserve">
+	<g id="svg-content">
+		<g transform="matrix(0.70,0,0,0.70,30,40)">
+			
+      <style type="text/css">
+	      .st0{fill:url(#XMLID_2_);}
+	      .st1{fill:url(#XMLID_3_);}
+	      .st2{fill:url(#XMLID_4_);}
+      </style>
+      <g id="XMLID_480_">
+	
+		    <linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="110.9155" y1="1097.9746" x2="110.9155" y2="868.0182" gradientTransform="matrix(1 0 0 1 0 -878)">
+		      <stop  offset="0" style="stop-color:#006694"/>
+		      <stop  offset="0.5" style="stop-color:#0078BA"/>
+		      <stop  offset="1" style="stop-color:#63BDDB"/>
+	      </linearGradient>
+	      <path id="XMLID_478_" class="st0" d="M117,39.5c6.6,24.8-0.5,49-21.3,63.4c-27,18.8-50.3,15.4-64.5,33.6c-11,14.1-9.1,29.7,4.4,42
+		      C52,193.4,74.2,200,97.7,200c55.3,0,100.1-44.9,100.1-100.1c0-55.3-49-111.5-121.4-97.8C97,4.4,111.9,20.6,117,39.5z"/>
+	
+		    <linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="52.6183" y1="961.9601" x2="52.6183" y2="856.8334" gradientTransform="matrix(0.9999 1.380000e-02 -1.380000e-02 0.9999 15.1508 -855.4408)">
+		      <stop  offset="0" style="stop-color:#4D9F22"/>
+		      <stop  offset="1" style="stop-color:#A6E200"/>
+	      </linearGradient>
+	      <path id="XMLID_477_" class="st1" d="M6.7,102.9c-9.8,22.6-2.5,43.4,12.3,58.8c-2.2-6.4-3.5-19.2,2.9-29.1
+		      c18.6-28.4,60.8-20.9,75.6-48c-11,13.4-34,12.6-53.5,16.8c-15.8,3.4-38.6,8.5-37.7,37C0,109.6,21.8,97.1,41,91.9
+		      c17.9-4.8,45.1-6.6,58.9-20.3c17.2-17.2,1.6-52.5-17.7-59.2c10.4,6.9,11.9,22.4,0.4,36.2C72,61.2,56.3,65.9,41.8,72.7
+		      C27.4,79.4,13.2,88.1,6.7,102.9z"/>
+	
+		    <linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="60.8423" y1="916.4919" x2="12.5609" y2="905.0599" gradientTransform="matrix(1 0 0 1 0 -878)">
+		      <stop  offset="0" style="stop-color:#4D9F22"/>
+		      <stop  offset="1" style="stop-color:#A6E200"/>
+          
+	      </linearGradient>
+	      <path id="XMLID_476_" class="st2" d="M76.9,46.9c8.2-8.3,9.6-26.2-1-34.3c-11.3-8.6-33-6-45.5,8.5c-10,11.5-10.8,24.5-11,39
+		      c4-13.3,16.7-17.7,24.5-12.9c6.4,4,8,13.3,2.9,19.4c7.4-6,18.4-7.4,21.9-14.9c-0.5-13.6-18.4-27.2-36.5-16.6
+		      C51.4,18.6,73.9,26.6,76.9,46.9z"/>
+        
+      </g>
+      
+		</g>
+		<text font-family="Microsoft YaHei" letter-spacing="6" text-anchor="middle" fill="#3e3a39" stroke="#3e3a39" stroke-width="1" font-size="50" dx="230" dy="120">古鱼</text>
+	</g>
+</svg>

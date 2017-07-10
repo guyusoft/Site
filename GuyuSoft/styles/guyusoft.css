@@ -32,6 +32,11 @@
     margin-top:10px;
 }
 
+.brand-logo img {
+    width: 100px;
+    height: 100px;
+}
+
 .header {
     background: #1976D2;
     height: 200px;
@@ -55,5 +60,5 @@
 }
 
 .product img {
-    width: 70%;
+    width: 50%;
 }
