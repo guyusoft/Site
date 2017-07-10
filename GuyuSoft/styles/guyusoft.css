@@ -33,9 +33,9 @@
 }
 
 .brand-logo img {
-    margin-top:8px;
-    width: 120px;
-    height: 90px;
+    margin-top:9px;
+    width: 150px;
+    height: 25px;
 }
 
 .header {
@@ -62,3 +62,11 @@
     height:200px;
 }
 
+.footer {
+    background-color:#000;
+}
+
+    .footer img {
+        width:100%;
+        height:150px;
+    }

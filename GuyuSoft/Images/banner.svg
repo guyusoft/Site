@@ -46,12 +46,12 @@
             <g id="monitor" transform="translate(399.000000, 34.000000)">
                 <g id="frame" transform="translate(0.238619, 0.000000)">
                     <g id="Combined-Shape">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use fill="#ECEFF1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="#1976D2" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#1976D2" fill-rule="evenodd" xlink:href="#path-1"></use>
                     </g>
                 </g>
                 <g id="screen" transform="translate(37.000000, 40.000000)">
-                    <rect fill="#FFFFFF" x="0.750392465" y="0.0163599182" width="760.238619" height="480.196319"></rect>
+                    <rect fill="#1976D2" x="0.750392465" y="0.0163599182" width="760.238619" height="480.196319"></rect>
                     <g id="text" transform="translate(60.000000, 331.000000)" stroke-opacity="0.7" stroke="#E1E2E3" stroke-width="9" stroke-linecap="square">
                         <path d="M0,4.5 L186.513046,4.5" id="Line"></path>
                         <path d="M0,27.5 L186.513046,27.5" id="Line"></path>
@@ -122,12 +122,12 @@
             </g>
             <g id="iphone" transform="translate(1030.000000, 325.000000)">
                 <g id="iPhone-Outline-Copy-2">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                    <use fill="#ECEFF1" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <use fill="#1976D2" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#1976D2" fill-rule="evenodd" xlink:href="#path-5"></use>
                 </g>
                 <path d="M133.449217,26.9964062 L90.3984404,26.9964062 C88.5408193,26.9964062 87.034263,25.4710722 87.034263,23.5902978 C87.034263,21.7095234 88.5408193,20.1865433 90.3984404,20.1865433 L133.449217,20.1865433 C135.306838,20.1865433 136.813394,21.7095234 136.813394,23.5902978 C136.813394,25.4710722 135.306838,26.9964062 133.449217,26.9964062 L133.449217,26.9964062 Z" id="speaker" fill="#FFFFFF"></path>
                 <path d="M126.5625,366.666667 C126.5625,374.454876 120.266084,380.769231 112.5,380.769231 C104.733916,380.769231 98.4375,374.454876 98.4375,366.666667 C98.4375,358.878458 104.733916,352.564103 112.5,352.564103 C120.266084,352.564103 126.5625,358.878458 126.5625,366.666667 L126.5625,366.666667 Z" id="home-button" stroke="#FFFFFF" stroke-width="2.5"></path>
-                <rect id="screen" fill="#FFFFFF" x="15" y="51" width="194.318182" height="287.179487"></rect>
+                <rect id="screen" fill="#1976D2" x="15" y="51" width="194.318182" height="287.179487"></rect>
                 <g id="text" transform="translate(31.000000, 249.000000)" stroke="#E1E2E3" stroke-width="9" stroke-linecap="square">
                     <path d="M0,1.5 L166.689941,1.5" id="Line" opacity="0.7"></path>
                     <path d="M0,18.5 L166.689941,18.5" id="Line" stroke-opacity="0.7"></path>
