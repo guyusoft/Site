@@ -1,56 +1,44 @@
 ﻿<!DOCTYPE html>
 
-<html ng-app="guyu">
+<html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="~/styles/guyusoft.css" rel="stylesheet">
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <nav class="navbar navbar-default nav-border-none nav-guyu" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-                    <span class="sr-only">切换导航</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand brand" href="#">
-                    <div class="brand-logo">
-                        <img src="~/Images/logo.svg" alt="古鱼网" />
-                    </div>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="mainNavBar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">公司产品</a></li>
-                    <li><a href="#">行业解决方案</a></li>
-                    <li><a href="#">移动开发</a></li>
-                    <li><a href="#">微信应用</a></li>
-                    <li><a href="#">关于我们</a></li>
-                    <li><a href="#">联系我们</a></li>
-                </ul>
-                <ul class="nav navbar-nav pull-right visible-md visible-lg nav-right">
-                    <li class="pull-right"><a href="#">注册</a></li>
-                    <li class="pull-right"><a href="#">登录</a></li>
-                </ul>
-            </div>
+    <div class="nav">
+        <div class="left">
+            <ul class="list">
+                <li><a href="#">公司产品</a></li>
+                <li><a href="#">行业解决方案</a></li>
+                <li><a href="#">移动开发</a></li>
+                <li><a href="#">微信应用</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
         </div>
-    </nav>
+        <div class="right">
+            <ul class="list">
+                <li><a href="#">注册</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+    </div>
 
-    <header class="header">
-        <h1>网站，微信应用，移动客户端
+    @*<header class="header">
+        <h1>
+            网站，微信应用，移动客户端
         </h1>
-        <h1>一站式平台，助力企业腾飞
+        <h1>
+            一站式平台，助力企业腾飞
         </h1>
-    </header>
+    </header>*@
 
 
     @RenderBody()
-    <footer class="footer">
+    @*<footer class="footer">
         <div class="container">
             <div class="col-md-3">
                 <ul>
@@ -135,10 +123,8 @@
         <div class="container copyright">
             Copyright © 2017 <img src="~/Images/logo.svg" alt="古鱼网" />
         </div>
-    </footer>
+    </footer>*@
     <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
     <script src="~/Scripts/guyusoft.js"></script>
 </body>
 </html>

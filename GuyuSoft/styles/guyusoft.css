@@ -1,41 +1,87 @@
-﻿body {
-    font-family: "Helvetica Neue",Arial,STHeiti,"Microsoft YaHei",sans-serif,Helvetica,"DroidSansFallback",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3"!important;
-    color: #fff;
+﻿html {
+    font-family: "宋体","微软雅黑","Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    /*设置行高*/
+    line-height: 1.15;
+    /*  字体的小写字母 "x" 的高度与 "font-size" 高度之间的比率被称为一个字体的 aspect 值。
+        当字体拥有高的 aspect 值时，那么当此字体被设置为很小的尺寸时会更易阅读。
+        举例：Verdana 的 aspect 值是 0.58（意味着当字体尺寸为 100px 时，它的 x-height 是 58px ）。
+        Times New Roman 的 aspect 值是 0.46。
+        这就意味着 Verdana 在小尺寸时比 Times New Roman 更易阅读*/
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    /*  box-sizing 属性允许您以特定的方式定义匹配某个区域的特定元素。
+        例如，假如您需要并排放置两个带边框的框，可通过将 box-sizing 设置为 "border-box"。
+        这可令浏览器呈现出带有指定宽度和高度的框，并把边框和内边距放入框中。
+    */
+    -webkit-box-sizing: border-box; /* Safari */
+    -moz-box-sizing: border-box; /* Firefox */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-.nav-guyu {
-    background-color: #fff;
+body {
+    /*padding是控件的内容相对控件的边缘的边距．margin是控件边缘相对父空间的边距．
+    在CSS中margin是指从自身边框到另一个容器边框之间的距离，就是容器外距离。
+    在CSS中padding是指自身边框到自身内部另一个容器边框之间的距离，就是容器内距离。*/
+    margin: 0;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+a {
     text-decoration: none;
-    color: #EA5514;
 }
 
-.nav-border-none {
-    border: none;
+.nav {
+    font-size: 14px;
+    overflow:hidden;
+    margin:0 auto;
 }
 
-.brand {
-    padding: 3px;
-}
-
-.nav-right {
-    width: 350px;
-}
-
-    .nav-right .nav-form {
-        width: 200px;
+    .nav .left {
+        float:left;
     }
 
-        .nav-right .nav-form .search-form {
-            margin-top: 10px;
-        }
+    .nav .right {
+        float:right;
+    }
 
-.brand-logo img {
-    margin-top: 9px;
-    width: 150px;
-    height: 25px;
+    .nav a{
+        color:#808080;
+    }
+
+    .nav .list ul, .nav .list li {
+        list-style: none;
+        float: left;
+    }
+
+    .nav .list li {
+        margin-left: 15px;
+    }
+
+
+@media (min-width: 576px) {
+    .nav {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav {
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav {
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav {
+        width: 1140px;
+    }
 }
 
 .header {
@@ -79,9 +125,9 @@
         text-decoration: none;
     }
 
-    .footer a:hover {
-        color: #EA5514;
-    }
+        .footer a:hover {
+            color: #EA5514;
+        }
 
     .footer .title {
         font-size: 18px;
@@ -92,8 +138,8 @@
         text-align: center;
     }
 
-    .footer .copyright img {
-        width: 120px;
-        height: 25px;
-        margin-bottom:5px;
-    }
+        .footer .copyright img {
+            width: 120px;
+            height: 25px;
+            margin-bottom: 5px;
+        }

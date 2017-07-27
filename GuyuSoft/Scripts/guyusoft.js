@@ -1,4 +1,4 @@
-﻿var app = angular.module('guyu', []);
+﻿//var app = angular.module('guyu', []);
 
-app.run(['$rootScope', function ($rootScope) {
-}]);
+//app.run(['$rootScope', function ($rootScope) {
+//}]);
